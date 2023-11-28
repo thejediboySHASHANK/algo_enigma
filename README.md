@@ -24,8 +24,9 @@ To get started with this project, follow the instructions below.
 
 ### Prerequisites
 
+- Java
+- JavaFX
 - Node.js
-- Redis
 
 ### Installation
 
