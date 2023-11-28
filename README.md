@@ -35,36 +35,16 @@ To get started with this project, follow the instructions below.
    ```sh
    git clone https://github.com/thejediboySHASHANK/Message_Queue_Backend.git
 
-2. Install the dependencies:
+### Usage/Configuration
 
-   ```sh
-   npm install
-
-### Usage
-
-1. Start the Redis server on your local machine using docker:
-
-   ```sh
-   docker run -itd -p 6379:6379 redis
-
-2. Run the worker file: 
-   
-   ```sh
-   node worker.js
-
-2. Run the producer file: 
-   
-   ```sh
-   node producer.js
-
-The producer will add a job to the queue, which will be processed by the worker.
+Contact this repository's owner, if you want to run it yourself locally in your machine.
 
 
 ### Explanation
 
-The worker file (worker.js) contains the logic for processing the messages from the queue. It simulates sending an email by using a delay.
+I have made a prototype of Gmaps navigation algorithm to emulate the navigation that happens in Gmaps and other related map navigation softwares. As, Google Maps is closed source, I have implemented BFS, Dijkstra’s and A* Algorithm to calculate the shortest path between two points, i.e Start and Destination Point. 
 
-The producer file (producer.js) demonstrates how to add a job to the queue. In this, it adds an email job with sample details.
+Google Maps API is used only for Map demonstration purposes through extracting the intersection points from the Maps to calculate the shortest path.
 
 
 
