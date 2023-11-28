@@ -4,7 +4,17 @@
   <img src="https://community.sw.siemens.com/servlet/rtaImage?eid=ka64O000000bqkN&feoid=00N4O000006Yxpf&refid=0EM4O00000113ss" width="500" alt="BullMQ Logo">
 </p>
 
-This repository demonstrates the implementation of a message queue using BullMQ. The project consists of a worker file and a producer file, showcasing how to use the message queue to send emails asynchronously.
+In the realm of navigation applications utilizing Google Maps, there exists a need to design and implement bespoke shortest path finder algorithms, steering clear of Google's proprietary closed-source methods. The primary objectives of this project are as follows:
+
+#### Algorithmic Diversity:
+Develop a solution that incorporates a minimum of three distinct shortest path finder algorithms.
+Facilitate a comprehensive real-time performance analysis to discern the strengths and weaknesses of each algorithm.
+Independence from Native Google Algorithms:
+Devise algorithms that operate independently of Google's native closed-source routing mechanisms.
+Ensure a high degree of customization and adaptability to diverse real-world scenarios.
+Graphical Visualization:
+Implement a visually intuitive graphical user interface to depict the dynamic functioning of the algorithms on Google Maps.
+Enhance understanding of fundamental data structures and algorithms through real-time graphical representations.
 
 ## Getting Started
 
