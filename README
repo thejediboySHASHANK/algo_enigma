@@ -1,56 +1,57 @@
-/-------------------------------------------------------------------------
-/ Starter Code and GUI Application for Course 3 in the
-/ Java Programming: Object Oriented Design of 
-/ Data Structures Specialization:
-/
-/ Advanced Data Structures in Java
-/ https://www.coursera.org/learn/advanced-data-structures
-/
-/ Authored by UCSD MOOC Team:
-/ Mia Minnes, Christine Alvarado, Leo Porter, Alec Brickner
-/ and Adam Setters
-/
-/ Date: 12/16/2015
-/-------------------------------------------------------------------------
+# Message Queue using BullMQ
 
----------------------------------------------------------[ DESCRIPTION ]--
+<p align="center">
+  <img src="https://www.gitbook.com/cdn-cgi/image/width=120,dpr=2,height=120,fit=contain,format=auto/https%3A%2F%2F876297641-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-LUuDmt_xXMfG66Rn1GA%252Ficon%252FHOq80FSJicAlE4bVptC9%252Fbull.png%3Falt%3Dmedia%26token%3D10a2ba71-db1f-4d5c-8787-3dbedc8dd3ce" width="200" alt="BullMQ Logo">
+</p>
 
-The files provided are skeleton code, as well as grading previews and 
-testing files to be used in completing the course programming 
-assignments. Additionally, you are provided a runnable JavaFX program 
-which will help to test and demonstrate your implementations.
+This repository demonstrates the implementation of a message queue using BullMQ. The project consists of a worker file and a producer file, showcasing how to use the message queue to send emails asynchronously.
 
--------------------------------------------------------[ FILES BY WEEK ]--
+## Getting Started
 
-Below are the files introduced in each week and used in each week
-of the course. See file for description...
+To get started with this project, follow the instructions below.
 
-Week 1 : Introduction to the course and graphs
-==============================================
-basicgraph.Graph.java
-basicgraph.GraphAdjList.java
-basicgraph.GraphAdjMatrix.java
+### Prerequisites
 
-Week 2 : Class design and simple graph search
-==================================================
-roadgraph.MapGraph.java
-week2example.Maze.java
-week2example.MazeLoader.java
-week2example.MazeNode.java
+- Node.js
+- Redis
 
-Utility files
-=============
-geography.GeographicPoint.java
-geography.RoadSegment.java
-util.GraphLoader.java
+### Installation
 
----------------------------------------------------------------[ SETUP ]-- 
+1. Clone the repository:
 
-Importing Project into eclipse:
-	1. Create a new Java Project in your workspace
-	2. Import the starter files:
-	  File -> Import -> Select "File System" -> Next -> Browse and set 
-	  root directory to folder contents of zip were extracted to -> Finish
+   ```sh
+   git clone https://github.com/thejediboySHASHANK/Message_Queue_Backend.git
 
-Feel free to use another IDE or manually compile and run your programs.
-If you need help, google is your friend.
+2. Install the dependencies:
+
+   ```sh
+   npm install
+
+### Usage
+
+1. Start the Redis server on your local machine using docker:
+
+   ```sh
+   docker run -itd -p 6379:6379 redis
+
+2. Run the worker file: 
+   
+   ```sh
+   node worker.js
+
+2. Run the producer file: 
+   
+   ```sh
+   node producer.js
+
+The producer will add a job to the queue, which will be processed by the worker.
+
+
+### Explanation
+
+The worker file (worker.js) contains the logic for processing the messages from the queue. It simulates sending an email by using a delay.
+
+The producer file (producer.js) demonstrates how to add a job to the queue. In this, it adds an email job with sample details.
+
+
+
