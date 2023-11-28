@@ -9,10 +9,12 @@ In the realm of navigation applications utilizing Google Maps, there exists a ne
 #### Algorithmic Diversity:
 Develop a solution that incorporates a minimum of three distinct shortest path finder algorithms.
 Facilitate a comprehensive real-time performance analysis to discern the strengths and weaknesses of each algorithm.
-Independence from Native Google Algorithms:
+
+#### Independence from Native Google Algorithms:
 Devise algorithms that operate independently of Google's native closed-source routing mechanisms.
 Ensure a high degree of customization and adaptability to diverse real-world scenarios.
-Graphical Visualization:
+
+#### Graphical Visualization:
 Implement a visually intuitive graphical user interface to depict the dynamic functioning of the algorithms on Google Maps.
 Enhance understanding of fundamental data structures and algorithms through real-time graphical representations.
 
