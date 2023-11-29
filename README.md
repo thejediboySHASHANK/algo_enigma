@@ -4,8 +4,6 @@
 https://github.com/thejediboySHASHANK/algo_enigma/assets/95047201/926eca88-fe53-4ede-8714-60be87a19439
 
 
-
-
 <p align="center">
   <img src="https://community.sw.siemens.com/servlet/rtaImage?eid=ka64O000000bqkN&feoid=00N4O000006Yxpf&refid=0EM4O00000113ss" width="500" alt="BullMQ Logo">
 </p>
