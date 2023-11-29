@@ -1,5 +1,7 @@
 # Comparative Shortest Path Algorithms for Real-time Navigation on Google Maps
 
+[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
+
 <p align="center">
   <img src="https://community.sw.siemens.com/servlet/rtaImage?eid=ka64O000000bqkN&feoid=00N4O000006Yxpf&refid=0EM4O00000113ss" width="500" alt="BullMQ Logo">
 </p>
